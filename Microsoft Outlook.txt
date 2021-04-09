@@ -1,0 +1,5 @@
+Cannot start Microsoft Outlook. Invalid XML, the view cannot be loaded
+
+Start Outlook through the following command and verify the result
+Click on Start, Run, type ‘Outlook /resetnavpane’ and click OK.
+Note: There is space between Outlook and ‘/’. The above mentioned command clears and regenerates the Navigation Pane for the current profile.
