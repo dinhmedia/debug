@@ -4,4 +4,9 @@ Start Outlook through the following command and verify the result
 Click on Start, Run, type ‘Outlook /resetnavpane’ and click OK.
 Note: There is space between Outlook and ‘/’. The above mentioned command clears and regenerates the Navigation Pane for the current profile.
 
-#
+# To fix this error, run the Outlook.exe  /ResetNavPane command:
+
+Hold the Windows key and the R key at the same time.
+The Run command window will open. Copy Outlook.exe  /ResetNavPane into the text field.
+Click OK to run the command.
+Running this command clears and regenerates the Navigation Pane for the current profile, removing all shortcuts and favorite folders from the Navigation Pane.
