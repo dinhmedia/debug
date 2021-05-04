@@ -1,0 +1,12 @@
+Kich hoat win 10 dgitail ban quyên vinh viên
+cscript slmgr.vbs /upk
+cscript slmgr.vbs /ckms
+sc config Sppsvc start= auto &amp; Net.exe start Sppsvc
+sc config Osppsvc start= auto &amp; Net.exe start Osppsvc
+sc config LicenseManager start= auto &amp; net start LicenseManager
+sc config wuauserv start= auto &amp; net start wuauserv
+cscript slmgr.vbs /ipk VK7JG-NPHTM-C97JM-9MPGT-3V66T 
+changepk.exe /productkey 2MP9Q-QTG2X-BDV64-2MFY9-7DHM8
+cscript slmgr.vbs /ato
+exit
+exit

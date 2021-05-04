@@ -1,0 +1,16 @@
+slmgr.vbs /upk
+slmgr.vbs /ckms
+slmgr.vbs /cpky
+slmgr.vbs /rearm
+net stop sppsvc
+cd %windir%\system32\spp\store\2.0
+ren tokens.dat tokens.bar
+net start sppsvc
+cscript.exe %windir%\system32\slmgr.vbs /rilc
+exit
+
+
+sc config LicenseManager start= auto & net start LicenseManager
+sc config wuauserv start= auto & net start wuauserv
+changepk.exe /productkey VK7JG-NPHTM-C97JM-9MPGT-3V66T
+exit
