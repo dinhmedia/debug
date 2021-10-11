@@ -2,3 +2,6 @@ Map driver
 # net use T: \\192.168.01\dd
 # net use T: /delete
 # net use * /delete
+
+- Show Hidden Files Using Command Prompt on All Windows Versions
+# attrib *.* -h -s /s /d" (without quotes) and hit Enter.
